@@ -51,7 +51,7 @@ main {
     margin: 10px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-
+    font-weight: 500;
     text-align: left;
 }
 
@@ -68,6 +68,28 @@ main {
 
     margin: 10px 20px;
 }
+
+.price-product {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-align: left;
+}
+
+.price-product .value-big {
+    color: var(--Dark-cyan);
+    font-family: 'Fraunces', sans-serif;
+    font-size: xx-large;
+    margin-right: 15px;
+}
+
+.price-product .value-small {
+    color: var(--Dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    text-decoration: line-through;
+}
+
 
 footer.attribution { 
     font-size: 11px; 
