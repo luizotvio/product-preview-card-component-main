@@ -9,30 +9,56 @@
 
 }
 
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
  }
 
- body {
+body {
     min-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    background-color: var(--Cream);
  }
 
+main {
+    width: 80%;
+    min-height: 90vh;
+    background-color: var(--White);
+    text-align: center;
+    border-radius: 10px;
+}
 
+.banner-container img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
 
+/* .description-product {
+    
+} */
 
+.description-product .perfume {
+    color: var(--Dark-grayish-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    padding: 10px;
+    font-size: 14px;
+}
 
+.description-product h1 {
+    
+}
 
- 
 footer.attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-top: 10px;
 }
 
 footer.attribution a { 
