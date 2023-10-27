@@ -1,0 +1,48 @@
+@media (min-width: 990px) {
+    main {
+        width: 60%;
+        height: 80vh;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .banner-container {
+        width: 40%;
+        height: 80%;
+        background-image: url(../images/image-product-desktop.jpg);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .description-product {
+        width: 40%;
+        height: 80%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    .description-product .perfume {
+        margin: 10px 40px;
+        font-size: 15PX;
+    }
+
+    .description-product h1 {
+        text-align: left;
+        margin: 0 20px 10PX;
+        padding: 1em;
+      }
+
+      .description-product p {
+        margin: 5px 30px;
+        padding: 0.9rem;
+      }
+
+      .price-product {
+        margin: 5px 30px;
+      }
+
+      .btn-get {
+        margin: 0px 10%;
+      }
+
+}
