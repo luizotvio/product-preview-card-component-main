@@ -28,13 +28,16 @@ body {
  }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 80%;
-    height: 90vh;
+    height: 100vh;
     text-align: center;
 }
 
 .banner-container {
-    display: flex;
+   
 }
 
 .banner-container img {
@@ -99,13 +102,13 @@ main {
 
 .btn-get {
     background-color: var(--Dark-cyan);
-    width: 90%;
-    margin: 0px auto;
+    margin: 0px 5%;
     padding: 15px 30px;
     border-radius: 10px;
     color: #fff;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    text-align: left;
 }
 
 .btn-get i {
