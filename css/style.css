@@ -39,20 +39,34 @@ main {
     border-radius: 10px 10px 0 0;
 }
 
-/* .description-product {
-    
-} */
+.description-product {
+    display: flex;
+    flex-direction: column;
+}
 
 .description-product .perfume {
     color: var(--Dark-grayish-blue);
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    padding: 10px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+
+    text-align: left;
 }
 
 .description-product h1 {
-    
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.description-product p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--Dark-grayish-blue);
+    text-align: left;
+
+    margin: 10px 20px;
 }
 
 footer.attribution { 
