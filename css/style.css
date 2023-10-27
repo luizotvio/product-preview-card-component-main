@@ -52,6 +52,7 @@ main {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: var(--White);
     border-radius: 0 0 10px 10px;
 }
