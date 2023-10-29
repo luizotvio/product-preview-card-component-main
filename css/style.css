@@ -1,5 +1,4 @@
-
- @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 :root {
     --Dark-cyan: hsl(158, 36%, 37%);
@@ -61,7 +60,7 @@ main {
     color: var(--Dark-grayish-blue);
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    margin: 15px 20px;
+    margin: 10px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     font-weight: 500;
